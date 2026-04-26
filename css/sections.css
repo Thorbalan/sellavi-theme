@@ -1,0 +1,43 @@
+/* =============================================
+   SELLAVI THEME - SECTIONS
+   Стилове за Sellavi блоковете
+   ============================================= */
+
+/* Общ spacing за всички блокове */
+.page-section {
+  padding: var(--spacing-lg) 0;
+}
+
+/* ── Банер ── */
+.banners_module {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* ── Категории ── */
+.homefeatured_category .widget-title,
+.latest-section .widget-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Продуктов списък ── */
+.latest-section .products-module {
+  gap: var(--spacing-md);
+}
+
+/* ── Брандове слайдер ── */
+.brands_slider_module {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+}
+
+/* ── Custom модули ── */
+.custom-content-section {
+  padding: var(--spacing-lg) 0;
+}

@@ -1,0 +1,36 @@
+/* =============================================
+   SELLAVI THEME - BASE
+   Глобални променливи и reset
+   ============================================= */
+
+:root {
+  /* Цветове - променяй тук */
+  --color-primary:    #000000;
+  --color-secondary:  #ffffff;
+  --color-accent:     #e63946;
+  --color-text:       #222222;
+  --color-text-muted: #888888;
+  --color-border:     #e0e0e0;
+  --color-bg:         #f9f9f9;
+
+  /* Типография */
+  --font-main:   'Inter', sans-serif;
+  --font-size-base: 14px;
+  --line-height:    1.6;
+
+  /* Разстояния */
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  32px;
+  --spacing-xl:  64px;
+
+  /* Закръгления */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  16px;
+
+  /* Сенки */
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+}
